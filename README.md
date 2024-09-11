@@ -33,7 +33,7 @@ Clone the repository and catkin_make:
 ## 3. Run
 ### 3.1. **run demo**
 
-    ./test_plane_detector_scan_merge2 /your_pcd_path
+    ./test_imls_sampling /your_pcd_path
 
 ## 4. Acknowledgments
 
