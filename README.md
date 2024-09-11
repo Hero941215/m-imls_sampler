@@ -1,6 +1,6 @@
 # m-imls_sampler
 
-**Implementation of the m-imls_sampler as described in the paper "IMLS-SLAM: scan-to-model matching based on 3D data", of Deschaud et al. (ICRA 2018)  https://ieeexplore.ieee.org/abstract/document/4650729**
+**Implementation of the m-imls_sampler as described in the paper "IMLS-SLAM: scan-to-model matching based on 3D data", of Deschaud et al. (ICRA 2018).**
 
 ## 0. Features
 Extract a set of structural plane points from range image using region growing algorithm. In order to address common occlusion problem, this algorithm uses a planar set based on the closest point representation to construct a kd-tree, and merges adjacent planar point sets that are less than the distance threshold.
